@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://media.etmall.com.tw/sp/12500/build.css"
+    />
+    <script defer="defer" src="app-bundle.js"></script>
+    <link href="app-bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header__wrap">
+      <div class="layout--main">
+        <div class="header__zone">
+          <a class="logo" href="https://www.etmall.com.tw/"
+            ><img src="logo-new.svg" alt="東森購物"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <div class="decor__bg decor__bg--scenes full-parent" id="decorBg"></div>
+    <main class="sp__wrap" id="spWrap"><section class="hero"></section></main>
+    <section class="section--canvas">
+      <div class="layout--main">
+        <div class="canvas--ball">
+          <canvas
+            class="fade-in full-parent"
+            id="resCanvas"
+            width="960"
+            height="960"
+          ></canvas
+          ><a class="btn--form-open" id="btnFormOpen" title="寫祈福卡"
+            ><img src="btn-form-open.png" alt="寫祈福卡"
+          /></a>
+        </div>
+        <div class="decor__wrap">
+          <img src="decor-canvas.png" alt="" id="decorCanvas" />
+        </div>
+        <ul id="demoTags" style="display: none">
+          <li><a href="#" data-weight="20">東森</a></li>
+          <li><a href="#" data-weight="13">免治</a></li>
+          <li><a href="#" data-weight="43">我要加薪!!</a></li>
+          <li><a href="#" data-weight="20">媽祖</a></li>
+          <li><a href="#" data-weight="23">AI取代人力</a></li>
+          <li><a href="#" data-weight="23">森森</a></li>
+          <li><a href="#" data-weight="20">東森房屋</a></li>
+          <li><a href="#" data-weight="13">自然美</a></li>
+          <li><a href="#" data-weight="43">今年工作運勢順利</a></li>
+          <li><a href="#" data-weight="20">找個好老公</a></li>
+          <li><a href="#" data-weight="23">去看BigBang演唱會</a></li>
+          <li><a href="#" data-weight="23">撿到100塊</a></li>
+          <li><a href="#" data-weight="20">中樂透頭獎</a></li>
+          <li><a href="#" data-weight="13">買到BlackPink演唱會門票</a></li>
+          <li><a href="#" data-weight="10">身體健康</a></li>
+          <li><a href="#" data-weight="20">希望今年能有免治馬桶</a></li>
+          <li><a href="#" data-weight="23">希望環遊世界</a></li>
+          <li><a href="#" data-weight="23">世界和平</a></li>
+          <li><a href="#" data-weight="20">東森</a></li>
+          <li><a href="#" data-weight="13">免治</a></li>
+          <li><a href="#" data-weight="43">我要加薪!!</a></li>
+          <li><a href="#" data-weight="20">媽祖</a></li>
+          <li><a href="#" data-weight="23">AI取代人力</a></li>
+          <li><a href="#" data-weight="23">森森</a></li>
+          <li><a href="#" data-weight="20">東森房屋</a></li>
+          <li><a href="#" data-weight="13">自然美</a></li>
+          <li><a href="#" data-weight="43">今年工作運勢順利</a></li>
+          <li><a href="#" data-weight="20">找個好老公</a></li>
+          <li><a href="#" data-weight="23">去看BigBang演唱會</a></li>
+          <li><a href="#" data-weight="23">撿到100塊</a></li>
+          <li><a href="#" data-weight="20">中樂透頭獎</a></li>
+          <li><a href="#" data-weight="13">買到BlackPink演唱會門票</a></li>
+          <li><a href="#" data-weight="10">身體健康</a></li>
+          <li><a href="#" data-weight="20">希望今年能有免治馬桶</a></li>
+          <li><a href="#" data-weight="23">希望環遊世界</a></li>
+          <li><a href="#" data-weight="23">世界和平</a></li>
+          <li><a href="#" data-weight="20">東森</a></li>
+          <li><a href="#" data-weight="13">免治</a></li>
+          <li><a href="#" data-weight="43">我要加薪!!</a></li>
+          <li><a href="#" data-weight="20">媽祖</a></li>
+          <li><a href="#" data-weight="23">AI取代人力</a></li>
+          <li><a href="#" data-weight="23">森森</a></li>
+          <li><a href="#" data-weight="20">東森房屋</a></li>
+          <li><a href="#" data-weight="13">自然美</a></li>
+          <li><a href="#" data-weight="43">今年工作運勢順利</a></li>
+          <li><a href="#" data-weight="20">找個好老公</a></li>
+          <li><a href="#" data-weight="23">去看BigBang演唱會</a></li>
+          <li><a href="#" data-weight="23">撿到100塊</a></li>
+          <li><a href="#" data-weight="20">中樂透頭獎</a></li>
+          <li><a href="#" data-weight="13">買到BlackPink演唱會門票</a></li>
+          <li><a href="#" data-weight="10">身體健康</a></li>
+          <li><a href="#" data-weight="20">希望今年能有免治馬桶</a></li>
+          <li><a href="#" data-weight="23">希望環遊世界</a></li>
+          <li><a href="#" data-weight="23">世界和平</a></li>
+          <li><a href="#" data-weight="20">東森</a></li>
+          <li><a href="#" data-weight="13">免治</a></li>
+          <li><a href="#" data-weight="43">我要加薪!!</a></li>
+          <li><a href="#" data-weight="20">媽祖</a></li>
+          <li><a href="#" data-weight="23">AI取代人力</a></li>
+          <li><a href="#" data-weight="23">森森</a></li>
+          <li><a href="#" data-weight="20">東森房屋</a></li>
+          <li><a href="#" data-weight="13">自然美</a></li>
+          <li><a href="#" data-weight="43">今年工作運勢順利</a></li>
+          <li><a href="#" data-weight="20">找個好老公</a></li>
+          <li><a href="#" data-weight="23">去看BigBang演唱會</a></li>
+          <li><a href="#" data-weight="23">撿到100塊</a></li>
+          <li><a href="#" data-weight="20">中樂透頭獎</a></li>
+          <li><a href="#" data-weight="13">買到BlackPink演唱會門票</a></li>
+          <li><a href="#" data-weight="10">身體健康</a></li>
+          <li><a href="#" data-weight="20">希望今年能有免治馬桶</a></li>
+          <li><a href="#" data-weight="23">希望環遊世界</a></li>
+          <li><a href="#" data-weight="23">世界和平</a></li>
+          <li><a href="#" data-weight="20">東森</a></li>
+          <li><a href="#" data-weight="13">免治</a></li>
+          <li><a href="#" data-weight="43">我要加薪!!</a></li>
+          <li><a href="#" data-weight="20">媽祖</a></li>
+          <li><a href="#" data-weight="23">AI取代人力</a></li>
+          <li><a href="#" data-weight="23">森森</a></li>
+          <li><a href="#" data-weight="20">東森房屋</a></li>
+          <li><a href="#" data-weight="13">自然美</a></li>
+          <li><a href="#" data-weight="43">今年工作運勢順利</a></li>
+          <li><a href="#" data-weight="20">找個好老公</a></li>
+          <li><a href="#" data-weight="23">去看BigBang演唱會</a></li>
+          <li><a href="#" data-weight="23">撿到100塊</a></li>
+          <li><a href="#" data-weight="20">中樂透頭獎</a></li>
+          <li><a href="#" data-weight="13">買到BlackPink演唱會門票</a></li>
+          <li><a href="#" data-weight="10">身體健康</a></li>
+          <li><a href="#" data-weight="20">希望今年能有免治馬桶</a></li>
+          <li><a href="#" data-weight="23">希望環遊世界</a></li>
+          <li><a href="#" data-weight="23">世界和平</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section--share">
+      <div class="layout--main">
+        <div class="share__wrap">
+          <a class="btn--share" title="點我邀請"
+            ><img src="btn-share.gif" alt="分享"
+          /></a>
+          <div class="share__count"><span>0</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="slider-w1m1">
+      <div class="layout--main">
+        <div class="slider-block">
+          <div class="slider__container">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <a href=""><img src="bn-slide-1.jpg" alt="春季旅遊展" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section--note">
+      <div class="layout--main">
+        <div class="note__block">
+          <div class="decor__top"><img src="decor-note-top.png" alt="" /></div>
+          <div class="note__box p-horizontal--xs">
+            <article class="p-horizontal--xs">
+              <h2 class="font--title-sm m-bottom--md">媽祖繞境祈福活動</h2>
+              <div class="note__part m-bottom--md">
+                <h3 class="font--title-sm m-bottom--xs">一、活動時間：</h3>
+                <ul class="font--article">
+                  <li class="m-bottom--xs">2025/3/27 00:00-2025/4/13 23:59</li>
+                </ul>
+              </div>
+              <div class="note__part m-bottom--md">
+                <h3 class="font--title-sm m-bottom--xs">二、活動內容：</h3>
+                <ul class="font--article">
+                  <li class="m-bottom--xs">
+                    活動期間於活動頁撰寫祈願卡並送出即可獲得樂透金8枚，憑邀請連結邀請他人並完成祈願卡撰寫、送出，每完成1名即可加贈樂透金8枚，邀請獎勵上限10名。
+                  </li>
+                </ul>
+              </div>
+              <div class="note__part m-bottom--md">
+                <h3 class="font--title-sm m-bottom--xs">
+                  三、樂透金給獎/使用日期：
+                </h3>
+                <ul class="font--article">
+                  <li class="m-bottom--xs">
+                    祈願卡送出後立即匯入，效期自匯入日起算7日。
+                  </li>
+                </ul>
+              </div>
+              <div class="note__part m-bottom--md">
+                <h3 class="font--title-sm m-bottom--xs">四、注意事項：</h3>
+                <ol class="font--article">
+                  <li class="m-bottom--xs">
+                    樂透金使用說明：<a
+                      href="https://www.etmall.com.tw/HelpCenter/LotteryMoneyQuestion"
+                      target="_blank"
+                      >【點我看詳情】</a
+                    >
+                  </li>
+                  <li class="m-bottom--xs">
+                    此活動限東森購物網路通路，給獎名單不另行通知。
+                  </li>
+                  <li class="m-bottom--xs">
+                    東森購物網保有活動變更、修改或終止本活動之權力，如有異動，修改後之內容將公佈在東森購物網上。
+                  </li>
+                  <li class="m-bottom--xs">
+                    獎品無法折換現金，如遇產品缺貨或不可抗力之事由導致獎品內容變更，主辦單位有權變更贈品，改由其他等值商品取代。另主辦與活動單位不負贈品之任何維護或保固責任。
+                  </li>
+                  <li class="m-bottom--xs">
+                    本活動之獎品均不得要求轉讓他人、折換現金及指定更換其他等值獎品。
+                  </li>
+                </ol>
+              </div>
+            </article>
+          </div>
+          <div class="decor__bottom">
+            <img src="decor-section-bottom.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="modal modal__custom-input">
+      <div class="modal__overlay full-parent">
+        <div class="overlay__block full-parent"></div>
+      </div>
+      <div class="dialog__block">
+        <div class="modal__close"><img src="modal-close.svg" alt="關閉" /></div>
+        <div class="form__wrap">
+          <form id="modalForm">
+            <div class="form__input">
+              <input placeholder="姓名" name="name" />
+            </div>
+            <div class="form__select">
+              <select name="pray-type">
+                <option selected="selected" disabled="disabled">
+                  祈福類型
+                </option>
+                <option value="身體健康">身體健康</option>
+                <option value="事業順利">事業順利</option>
+                <option value="闔家平安">闔家平安</option>
+                <option value="財運亨通">財運亨通</option>
+                <option value="天賜佳緣">天賜佳緣</option>
+                <option value="學業進步">學業進步</option>
+              </select>
+            </div>
+            <div class="form__textarea">
+              <textarea placeholder="請輸入祈福內容" name="wish"></textarea>
+            </div>
+            <div class="input__error">尚未填寫完整資訊。</div>
+            <div class="form__note">
+              撰寫內文會隨機顯示於香爐上方，請酌情撰文，4月19日將由東森專人製成疏文清冊送至新港奉天宮敬獻媽祖。
+            </div>
+            <div class="form--cta">
+              <button class="btn btn--submit" id="btnSubmit" type="submit">
+                <img src="btn-submit.png" alt="送出祈福卡" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal__confirm">
+      <div class="modal__overlay full-parent">
+        <div class="overlay__block full-parent"></div>
+      </div>
+      <div class="dialog__block">
+        <div class="modal__close">
+          <img src="modal-close-border.svg" alt="關閉" />
+        </div>
+        <form>
+          <div class="area-title font--title-xs"></div>
+          <div class="scroll-section">
+            <div class="area-content">
+              <div class="area-subtitle"></div>
+              <div class="area-detail">分享給更多朋友祈福</div>
+            </div>
+          </div>
+          <div class="area-clickBtn normal">
+            <div class="cta__box"><a class="n-btn" href="">回主會場</a></div>
+            <div class="cta__box">
+              <button class="n-btn" type="button">分享</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="tagcanvas.min.js"></script>
+  </body>
+</html>
